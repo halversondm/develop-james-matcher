@@ -2,12 +2,12 @@
 
 An Apache James Matcher for whitelisting the local part of the email address.  This is especially useful if you want to create a large list of users and your organization recognizes multiple domains for the same user.
 
-`mvn clean package` to build
+`mvn clean package` to build the code from source.
 
 ## Requirements
 
-Maven
-Java 8
+* Maven to build
+* Java 8 to run
 
 ### Runtime Requirements
 
