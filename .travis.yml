@@ -12,7 +12,7 @@ deploy:
     script: .travis/deploy.sh
     skip_cleanup: true
     on:
-      repo: com.halversondm/develop-james-matcher
+      repo: halversondm/develop-james-matcher
       branch: master
       jdk: oraclejdk8
   -
@@ -20,6 +20,6 @@ deploy:
     script: .travis/deploy.sh
     skip_cleanup: true
     on:
-      repo: com.halversondm/develop-james-matcher
+      repo: halversondm/develop-james-matcher
       tags: true
       jdk: oraclejdk8
