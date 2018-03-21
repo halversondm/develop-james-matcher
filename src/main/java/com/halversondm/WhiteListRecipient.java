@@ -40,7 +40,7 @@ public class WhiteListRecipient extends GenericRecipientMatcher {
     }
 
     public boolean matchRecipient(MailAddress mailAddress) throws MessagingException {
-        String localPart = mailAddress.getLocalPart();
+        String localPart = mailAddress.getLocalPart().toLowerCase();
         return emailNames.contains(localPart);
     }
 }

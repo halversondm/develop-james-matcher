@@ -30,4 +30,12 @@ public class WhiteListRecipientTest {
         boolean isValid = unit.matchRecipient(mailAddress);
         Assert.assertFalse(isValid);
     }
+
+    @Test
+    public void matchReceipient_WhenAddressHasDifferentCaseThanWhiteList() throws Exception {
+        unit = new WhiteListRecipient();
+        MailAddress mailAddress = new MailAddress("dAnIeL.m.HaLvErSoN@gmail.com");
+        boolean isValid = unit.matchRecipient(mailAddress);
+        Assert.assertTrue(isValid);
+    }
 }
