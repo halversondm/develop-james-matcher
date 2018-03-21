@@ -137,4 +137,10 @@
         <url>scm:git:git://github.com/halversondm/develop-james-matcher</url>
     </scm>
 
+    <scm>
+        <url>https://github.com/halversondm/develop-james-matcher</url>
+        <connection>scm:git:git://github.com/halversondm/develop-james-matcher.git</connection>
+        <developerConnection>scm:git:git@github.com:halversondm/develop-james-matcher.git</developerConnection>
+    </scm>
+
 </project>
