@@ -133,4 +133,8 @@
         </repository>
     </distributionManagement>
 
+    <scm>
+        <url>scm:git:git://github.com/halversondm/develop-james-matcher</url>
+    </scm>
+
 </project>
