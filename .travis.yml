@@ -23,3 +23,5 @@ deploy:
       repo: halversondm/develop-james-matcher
       tags: true
       jdk: oraclejdk8
+notifications:
+  slack: $SLACK_TOKEN
